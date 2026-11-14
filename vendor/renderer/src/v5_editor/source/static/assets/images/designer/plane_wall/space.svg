@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="33" height="33" viewBox="0 0 33 33" class="design-iconfont">
+  <g clip-path="url(#m5jr6sbye__clip0_5233_42204)">
+    <mask id="m5jr6sbye__gmot8culua" fill="#fff">
+      <rect x=".5" y="3.19531" width="32" height="26.6667" rx=".533333"/>
+    </mask>
+    <rect x=".5" y="3.19531" width="32" height="26.6667" rx=".533333" stroke="#212930" stroke-width="3" mask="url(#m5jr6sbye__gmot8culua)"/>
+    <g clip-path="url(#m5jr6sbye__clip1_5233_42204)" stroke="#212930" stroke-width=".5" stroke-linecap="square">
+      <path d="M40.4307 14.707L13.2085 41.9292"/>
+      <path d="M37.6025 11.8789L10.3804 39.101"/>
+      <path d="M34.7734 9.05078L7.5513 36.2729"/>
+      <path d="M24.9443 -0.398438L-2.2778 26.8237"/>
+      <path d="M28.2031 2.85938L0.98099 30.0815"/>
+      <path d="M31.4961 6.15625L4.27396 33.3784"/>
+      <path d="M21.6416 -3.70312L-5.58053 23.519"/>
+      <path d="M18.3438 -6.99219L-8.87839 20.2299"/>
+      <path d="M15.042 -10.3047L-12.1801 16.9174"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="m5jr6sbye__clip0_5233_42204">
+      <path fill="#fff" transform="translate(.5 .527344)" d="M0 0H32V32H0z"/>
+    </clipPath>
+    <clipPath id="m5jr6sbye__clip1_5233_42204">
+      <path fill="#fff" transform="translate(.5 3.19531)" d="M0 0H32V26.6667H0z"/>
+    </clipPath>
+  </defs>
+</svg>

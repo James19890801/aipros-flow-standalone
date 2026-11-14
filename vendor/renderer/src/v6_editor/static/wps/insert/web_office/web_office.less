@@ -1,0 +1,120 @@
+html,body{
+  height: 100%;
+}
+
+/**公共样式**/
+
+//底部取消、插入按钮
+#insert-editor-button{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+  z-index: 9;
+  &>div{
+    min-width: 70px;
+    margin: 0 10px;
+  }
+}
+//底部推荐模板
+.bottom_temp_wrap{
+  display: none!important;
+}
+//图片loading
+#page-imgcreating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 9999;
+  img{
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    color: #36425A;
+  }
+}
+//左上角文件、导入、下载
+#po-file-btn,#top-btn-download,#po-btn-import_{
+ display: none!important;
+}
+//保存云文档
+#save-wps-topbtn{
+  visibility: hidden;
+}
+//导出tab
+.header-center span[tit=export]{
+  display: none;
+}
+//弹窗编辑器 里面反馈，更新日志，使用手册隐藏
+#right-help-con{
+  .op-menu-list{
+    li[tit='mind_book']{
+      //display: none;
+    }
+    li[tit='feedback']{
+      display: none;
+    }
+    li[tit='upLog']{
+      //display: none;
+    }
+  }
+}
+
+/**流程图**/
+#po-designer-foot{
+  padding-bottom: 50px;
+}
+
+
+/**脑图**/
+//底部工具栏
+body>.po-navigation {
+  bottom: 50px;
+}
+//隐藏大纲模式
+#link-to-outline,#link-to-outline_,#link-v-to-outline_,#link-v-to-outline_ + .po-tool-devider{
+  display: none;
+}
+//视图隐藏脑图模式
+#header-op-container [tit=view] [tit=mind_mode]{
+  display: none;
+}
+#mind_topics_details .po-tool-devider:first-child{
+  display: none;
+}
+//底部字数hover超出
+.po-navigation .po-navigation-left .selected-texts-num{
+  left: 52px;
+}
+//隐藏视图
+/*header .header-center span[tit="view"]{
+  display: none;
+}*/
+//自定义主题屏蔽（放开丽丽-23.08.24）
+/*.mind-theme-dlg{
+  .mind-themes-tab [tp=mind-customise-themes]{
+    display: none!important;
+  }
+  &>div:last-child{
+    display: none!important;
+  }
+}*/
+
+
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html data-theme="default">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">
+    <title>思维笔记|思维导图|ProcessOn</title>
+    <meta name="description"
+        content="ProcessOn是一个在线协作绘图平台，为用户提供强大、易用的作图工具！支持在线创作流程图、思维导图、组织结构图、网络拓扑图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等。同时依托于互联网实现了人与人之间的实时协作和共享。">
+    <meta name="keywords" content="思维导图,流程图,免费在线作图工具,在线流程图,在线思维导图,组织结构图,网络拓扑图,UML作图,UI界面原型设计,iOS原型设计,BPMN,多人协作绘图">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+    <link rel="icon shortcut" href="./../favicon.983368c6.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./../global.02edb012.css" type="text/css">
+    <link rel="stylesheet" href="./../token.257c2af8.css">
+    <script src="./../staticResource.da5f9c27.js"></script>
+    <link rel="stylesheet" href="./../outline.f582701a.css">
+    
+    <style>
+        body {
+            padding-top: 0 !important
+        }
+
+        .outline-head-show {
+            display: flex !important
+        }
+
+        #outline-con,
+        #outline-con-search {
+            padding-top: 20px
+        }
+    </style>
+    <link rel="stylesheet" href="./../staticResource.d5d352a2.css">
+</head>
+
+<body>
+    <link rel="stylesheet" href="./../../../../assets/css/pc/global.css" type="text/css" />
+    <link rel="stylesheet" href="./../../../../assets/css/pc/export_img_watermark.css" type="text/css" />
+    <link rel="stylesheet" href="./../../../../assets/css/pc/feedbackpop.css" type="text/css" />
+    <link rel="stylesheet" href="./../../../../assets/css/pc/class.css" type="text/css" />
+    <link rel="stylesheet" href="./../../../fonts/font.css">
+    <script type="text/javascript" src="./../../../../assets/js/pc/jquery.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/jszip.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/jspdf.umd.min.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/third/exceljs.min.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/third/xlsx.min.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/pptxgen.min.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/pc/dataTrack.js"></script>
+    <script type="text/javascript" src="./../../../../config/config.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/pc/util.js"></script>
+    <script type="text/javascript" src="./../../../../assets/js/plug_in/import.js"></script>
+    <link rel="stylesheet" href="./../view.005dfa58.css">
+    <div class="outline-head outline-head-show">
+        <div class="head-left-nav head-nav"> 
+            <!-- <span id="back2home" title="个人文件" po-i18n="title_Personal_Documents"
+                style="font-size:18px;margin-top:2px;margin-left:20px;" class="ol-icons">&#xe67a;</span>
+                 -->
+            <div spellcheck="false" class="node-title outline-title"></div>
+        </div>
+    </div>
+    <div class="outline-body">
+        <div id="outline" class="outline-main">
+            <div id="outline-con"></div>
+            <div id="outline-con-search"></div>
+        </div>
+    </div>
+    <div class="util-container"> <input type="text" id="outline_input"
+            style="position:fixed;top:44px;opacity:0;z-index:-1;" value="">
+        <div id="outline-hl-menu" class="outline-dropdown outline-hl-menu"> <a id="btn_shortkey" op="shortkey"
+                class="outline-item"><span class="ol-icons">&#xe6f1;</span><span
+                    po-i18n="Shortcut_Key_Description">快捷键说明</span></a> <a id="btn_feedback" op="feedback"
+                class="outline-item"><span class="ol-icons">&#xe65f;</span><span po-i18n="Feedback">意见反馈</span></a>
+        </div>
+        <div id="colla-users-con" class="colla-users-con" style="display:none;">
+            <div class="colla-users-list"> </div>
+        </div>
+    </div>
+    <div id="dlg_export" class="dlg-export noselect outline-dlg padding-lr-none">
+        <h3 po-i18n="File_Export">文件导出</h3>
+        <div class="dlg-menu outline-dlg-content">
+            <ul class="export-menu">
+                <li class="export-i" type="opml"><span class="ol-icons">&#xe73e;</span>OPML<span
+                        po-i18n="File">文件</span><span class="res">(*.opml <span
+                            po-i18n="Outline_Document">大纲文件</span>)</span><span class="r-des"></span></li>
+                <li class="export-i" type="png"><span class="ol-icons">&#xe73d;</span><span
+                        po-i18n="Picture_File">图片文件</span><span class="res">（*.png）</span><span class="r-des"></span>
+                </li>
+                <li class="export-i" type="jpg"><span class="ol-icons">&#xe73d;</span>JPG<span
+                        po-i18n="File">文件</span><span class="res">（*.jpg <span
+                            po-i18n="Default_white_background">默认白底</span>）</span><span class="r-des"></span></li>
+                <li class="export-i" type="pdf"><span class="ol-icons">&#xe740;</span>PDF<span
+                        po-i18n="File">文件</span><span class="res">（*.pdf）</span><span class="r-des"></span></li>
+                <li class="export-i" type="pos"><span class="icon-img pos"></span>POS<span po-i18n="File">文件</span><span
+                        class="res">（*.pos <span
+                            po-i18n="Includes_picture_and_graphic">可导入，包含图片和图形结构定义</span>）</span><span
+                        class="r-des"></span></li>
+                <li class="seb"></li>
+                <li class="export-i" type="word"><span class="ol-icons">&#xe73b;</span>Word<span
+                        po-i18n="File">文件</span><span class="res"> (*.docx)</span><span class="r-des"></span></li>
+                <li class="export-i" type="ppt"><span class="ol-icons">&#xe73f;</span>PPT<span
+                        po-i18n="File">文件</span><span class="res">(*.pptx)</span><span class="r-des"></span></li>
+                <li class="export-i" type="csv"><span class="ol-icons">&#xe73c;</span>Excel<span
+                        po-i18n="File">文件</span><span class="res">(*.csv)</span> &nbsp;<span class="r-des"></span></li>
+                <li class="export-i" type="xmind"><span class="icon-img xmind"></span>XMind<span
+                        po-i18n="File">文件</span><span class="res"> (*.xmind)</span><span class="r-des"></span></li>
+                <li class="export-i" type="fmind"><span class="freemind icon-img"></span>FreeMind<span
+                        po-i18n="File">文件</span><span class="res">(*.mm)</span><span class="r-des"></span></li>
+                <li class="page-download-list-item seb"></li>
+                <li class="export-i page-download-list-item" type="all_pos"><span class="icon-img pos"></span><span
+                        po-i18n="Export_all_canvas">导出全部画布</span><span class="res">（*.poso <span
+                            po-i18n="Includes_picture_and_graphic">可导入，包含图片和图形结构定义</span>）</span></li>
+            </ul>
+        </div>
+    </div>
+    <ul class="op-context-menu">
+        <li op="complete"><label po-i18n="Done">完成</label><span class="op-explain">Shift+Enter</span></li>
+        <li op="remark"><label po-i18n="Remarks">备注</label><span class="op-explain">Ctrl+Enter</span></li>
+        <li op="image"><label po-i18n="Picture">图片</label></li>
+        <li op="flow"><label po-i18n="Flow_Chart">流程图</label></li>
+        <li op="mind"><label po-i18n="Mind_Map_pic">思维导图</label></li>
+        <li op="icons"><label po-i18n="Icon">图标</label><span class="ol-icons op-explain"><i
+                    class="ol-icons">&#xe747;</i></span>
+            <ul id="mind-dock-right-icons" class="child-menu icons-menu">
+                <li> <span ico="0" n="priority" style="color:red;" class="mind-icons">&#xe67a;</span> <span ico="1"
+                        n="priority" style="color:#f60;" class="mind-icons">&#xe625;</span> <span ico="2" n="priority"
+                        style="color:#ffaf38" class="mind-icons">&#xe62a;</span> <span ico="3" n="priority"
+                        class="mind-icons">&#xe635;</span> <span ico="4" n="priority" class="mind-icons">&#xe626;</span>
+                    <span ico="5" n="priority" class="mind-icons">&#xe62b;</span> <span ico="6" n="priority"
+                        class="mind-icons">&#xe627;</span> <span ico="7" n="priority" class="mind-icons">&#xe628;</span>
+                    <span ico="8" n="priority" class="mind-icons">&#xe629;</span> </li>
+                <li> <span ico="9" n="face" class="mind-icons">&#xe6c8;</span> <span ico="11" n="face"
+                        class="mind-icons">&#xe6ca;</span> <span ico="10" n="face" class="mind-icons">&#xe6c6;</span>
+                    <span ico="33" n="arrow" class="mind-icons">&#xe68c;</span> <span ico="34" n="arrow"
+                        class="mind-icons">&#xe68e;</span> <span ico="35" n="arrow" class="mind-icons">&#xe68d;</span>
+                    <span ico="36" n="arrow" class="mind-icons">&#xe68b;</span> <span ico="37" n="arrow"
+                        class="mind-icons">&#xe6a0;</span> </li>
+                <li> <span ico="26" n="flag" style="color:#444;" class="mind-icons">&#xe67e;</span> <span ico="27"
+                        n="flag" style="color:#60a0f0;" class="mind-icons">&#xe67e;</span> <span ico="28" n="flag"
+                        style="color:#bf1e1b;" class="mind-icons">&#xe67e;</span> <span ico="29" n="flag"
+                        style="color:#ff9f1a;" class="mind-icons">&#xe67e;</span> <span ico="30" n="flag"
+                        style="color:#30bfbf;" class="mind-icons">&#xe67e;</span> <span ico="31" n="flag"
+                        style="color:#50c28b;" class="mind-icons">&#xe67e;</span> <span ico="32" n="flag"
+                        style="color:red;" class="mind-icons">&#xe67e;</span> </li>
+                <li> <span ico="17" n="completion" class="mind-icons">&#xe6d2;</span> <span ico="18" n="completion"
+                        class="mind-icons">&#xe6d3;</span> <span ico="19" n="completion"
+                        class="mind-icons">&#xe6d4;</span> <span ico="20" n="completion"
+                        class="mind-icons">&#xe6d5;</span> <span ico="21" n="completion"
+                        class="mind-icons">&#xe6d6;</span> <span ico="22" n="completion"
+                        class="mind-icons">&#xe6d7;</span> <span ico="23" n="completion"
+                        class="mind-icons">&#xe6d8;</span> <span ico="24" style="font-size:17px;" n="completion"
+                        class="mind-icons">&#xe697;</span> </li>
+                <li> <span ico="38" class="mind-icons">&#xe6d9;</span> <span ico="39" class="mind-icons">&#xe634;</span>
+                    <span ico="40" class="mind-icons">&#xe640;</span> <span ico="41" class="mind-icons">&#xe692;</span>
+                    <span ico="42" class="mind-icons">&#xe6b8;</span> <span ico="43" class="mind-icons">&#xe6bb;</span>
+                    <span ico="44" class="mind-icons">&#xe6b9;</span> <span ico="45" class="mind-icons">&#xe6bf;</span>
+                    <span ico="46" class="mind-icons">&#xe663;</span> <span ico="47" class="mind-icons">&#xe6bd;</span>
+                    <span ico="48" class="mind-icons">&#xe621;</span> <span ico="49" class="mind-icons">&#xe6bc;</span>
+                    <span ico="50" class="mind-icons">&#xe6c1;</span> <span ico="51" class="mind-icons">&#xe609;</span>
+                    <span ico="52" class="mind-icons">&#xe688;</span> <span ico="53" class="mind-icons">&#xe681;</span>
+                    <span ico="54" class="mind-icons">&#xe639;</span> <span ico="55" class="mind-icons">&#xe682;</span>
+                    <span ico="56" class="mind-icons">&#xe67f;</span> <span ico="57" class="mind-icons">&#xe695;</span>
+                    <span ico="58" class="mind-icons">&#xe689;</span> <span ico="59" class="mind-icons">&#xe6be;</span>
+                    <span ico="60" class="mind-icons">&#xe683;</span> <span ico="61" class="mind-icons">&#xe6c0;</span>
+                    <span ico="62" class="mind-icons">&#xe6b6;</span> <span ico="63" class="mind-icons">&#xe680;</span>
+                    <span ico="64" class="mind-icons">&#xe693;</span> </li>
+            </ul>
+        </li>
+        <li> <span class="style_sep"></span>
+            <div class="outline-style-menu"> <i op="b" class="active ol-icons">&#xea09;</i> <i op="i"
+                    class="ol-icons">&#xeb31;</i> <i op="u" class="ol-icons">&#xec9f;</i> <i op="s"
+                    class="ol-icons">&#xe6f9;</i>
+                <div style="height:12px;width:100%;"></div> <span op="color" val="#000"><span
+                        style="background-color:#000;" class="active color-dot"></span></span> <span val="#aaa"
+                    op="color"><span style="background-color:#aaa;" class="color-dot gray"></span></span> <span
+                    val="#ff4050" op="color"><span style="background-color:#ff4050;"
+                        class="color-dot red"></span></span> <span op="color" val="#2ad352"><span
+                        style="background-color:#2ad352;" class="color-dot green"></span></span> <span val="#29b6f2"
+                    op="color"><span style="background-color:#29b6f2;" class="blue color-dot"></span></span>
+            </div> <span class="style_sep"></span>
+        </li>
+        <li op="del"><label po-i18n="Delete">删除</label><span class="op-explain">Ctrl+Shift+Space</span></li>
+    </ul>
+    <div class="mind-corner right"> <span class="close mind-icons">&#xe622;</span>
+        <div tit="shortcut" class="mind-corner-content">
+            <div class="corner-title">
+                <div class="label" po-i18n="Shortcut_keys">快捷键</div>
+            </div>
+            <div id="shortcut-container" class="scroll">
+                <div class="container title" po-i18n="Universal">通用</div>
+                <div class="container-row"><span po-i18n="Add_sibling_nodes">增加同级节点</span> <label><span
+                            keys="">Enter</span></label></div>
+                <div class="container-row"><span po-i18n="Indent_to_the_right">向右缩进</span> <label><span
+                            keys="">Tab</span></label></div>
+                <div class="container-row"><span po-i18n="Indent_to_the_left">向左缩进</span> <label><span
+                            keys="">Shift</span>+<span keys="">Tab</span></label></div>
+                <div class="container-row"><span po-i18n="Multiple_choices">多选</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="" po-i18n="Drag">拖拽</span></label></div>
+                <div class="container-row"><span style="width:90px;" po-i18n="Quickly_remove_Nodes">快速删除节点</span> <label
+                        style="width:170px;"><span class="ct" keys="">Ctrl</span>+<span keys="">Shift</span>+<span
+                            class="ba" keys="">Backspace</span></label></div>
+                <div class="container-row"><span po-i18n="Delete_selected_node">删除选中节点</span> <label><span
+                            keys="">Delete</span></label></div>
+                <div class="container-row"><span po-i18n="Fast_Focus">快速聚焦</span> <label><span class="ct"
+                            keys="">Ctrl</span>+<span keys="">,</span>/<span keys="">.</span></label></div>
+                <div class="container title" po-i18n="Formatting_and_Editing">格式和编辑</div>
+                <div class="container-row"><span po-i18n="Setup_complete">设置完成</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">Enter</span></label></div>
+                <div class="container-row"><span po-i18n="Add_Remarks">添加备注</span> <label><span
+                            keys="">Shift</span>+<span keys="">Enter</span></label></div>
+                <div class="container-row"><span po-i18n="Node_text_wrap">节点内文本换行</span> <label><span class="al"
+                            keys="">Alt</span>+<span keys="">Enter</span></label></div>
+                <div class="container-row"><span style="width:125px;"><span po-i18n="Set_as">设为</span>1、2、3<span
+                            po-i18n="Level_Title">级标题</span></span> <label style="width:135px;"><span class="al"
+                            keys="">Alt</span>+<span keys="">1/2/3</span></label></div>
+                <div class="container-row"><span style="width:118px;"
+                        po-i18n="Set_sibling_node_as_title">设同级节点为标题</span> <label style="width:142px;"><span class="al"
+                            keys="">Alt</span>+<span keys="">Shift</span>+<span keys="">1/2/3</span></label></div>
+                <div class="container-row"><span po-i18n="Set_as_text">设为正文 </span> <label><span class="al"
+                            keys="">Alt</span>+<span keys="">4</span></label></div>
+                <div class="container-row"><span po-i18n="Set_sibling_node_as_text">设同级节点为正文</span> <label><span
+                            class="al" keys="">Alt</span>+<span keys="">Shift</span>+<span keys="">4</span></label>
+                </div>
+                <div class="container-row" po-i18n="Replication"><span>复制</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">C</span></label></div>
+                <div class="container-row"><span po-i18n="Cut">剪切</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">X</span></label></div>
+                <div class="container-row"><span po-i18n="Paste">粘贴</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">V</span></label></div>
+                <div class="container-row"><span po-i18n="Undo">撤销</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">Z</span></label></div>
+                <div class="container-row"><span po-i18n="Return_to">恢复</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">Y</span></label></div>
+                <div class="container-row"><span po-i18n="Equation">LaTeX方程式</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">E</span></label></div>
+                <div class="container title" po-i18n="Navigation_and_Selection">导航和选择</div>
+                <div class="container-row"><span><span po-i18n="Unfold">展开</span>/<span
+                            po-i18n="Drop_the_node">收起节点</span></span> <label><span keys="" class="ct">Ctrl</span>+<span
+                            keys="">/</span></label></div>
+                <div class="container-row"><span po-i18n="Move_cursor_up">向上移动光标</span> <label><span
+                            keys="">↑</span></label></div>
+                <div class="container-row"><span po-i18n="Move_cursor_down">向下移动光标</span> <label><span
+                            keys="">↓</span></label></div>
+                <div class="container-row"><span po-i18n="Multiple_nodes_up">向上多选节点</span> <label><span
+                            keys="">Shift</span>+<span keys="">↑</span></label></div>
+                <div class="container-row"><span po-i18n="Multiple_nodes_down">向下多选节点</span> <label><span
+                            keys="">Shift</span>+<span keys="">↓</span></label></div>
+                <div class="container-row"><span po-i18n="Move_nodes_up">向上移动节点</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">Shift</span>+<span keys="">↑</span></label></div>
+                <div class="container-row"><span po-i18n="Move_the_node_down">向下移动节点</span> <label><span keys=""
+                            class="ct">Ctrl</span>+<span keys="">Shift</span>+<span keys="">↓</span></label></div>
+            </div>
+        </div>
+    </div>
+    <div class="op-con-list">
+        <div tit="import_opml"><span></span><span><span po-i18n="Import_File">导入文件</span>（opml、pos<span
+                    po-i18n="Format">格式</span>）</span></div>
+        <div class="sep"></div>
+        <div tit="download_png"><span></span><span><span po-i18n="Save_as_Picture_Format">另存为图片格式</span>（.png）</span>
+        </div>
+        <div tit="download_opml"><span></span><span po-i18n="Save_as_opml_format">另存为opml格式（可用于导入）</span></div>
+    </div>
+    <div id="chartEditor" class="chart-app outline-animate-dlg outline-dlg"></div>
+    <script>window.pageInfo = {}; var e = { getCookies: function (e) { if (document.cookie.length > 0) { var i = document.cookie.indexOf(e + "="); if (-1 != i) { i = i + e.length + 1; var t = document.cookie.indexOf(";", i); return -1 == t && (t = document.cookie.length), unescape(document.cookie.substring(i, t)) } } return "" }, setCookies: function (e, i, t) { var n = new Date; n.setDate(n.getDate() + t), document.cookie = e + "=" + escape(i) + (null == t ? "" : ";path=/;expires=" + n.toGMTString()) }, getUrlParams: function (e) { var i = new RegExp("(^|&)" + e + "=([^&]*)(&|$)", "i"), t = window.location.search.substr(1).match(i); return null != t ? unescape(t[2]) : null }, deviceIdentify: function () { var e = "pc", i = this.getUrlParams("device"); return i ? e = i : /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? e = "mobi_ios" : /(Android)/i.test(navigator.userAgent) && (e = "mobi_android"), e }, setChartId: function () { window.chartId = ""; try { var e = window.location.pathname; if (0 == e.indexOf("/mindmap/") || 0 == e.indexOf("/outline/") || 0 == e.indexOf("/diagraming/") || 0 == e.indexOf("/embed/")) window.chartId = e.substring(e.lastIndexOf("/") - 0 + 1); else { var i = this.getCookies("po_chartid"); this.setCookies("po_chartid", ""), i && (window.chartId = i); var t = this.getUrlParams("chartId") || ""; t && (window.chartId = t) } e.indexOf("editor/view/") > -1 && (window.pageInfo.isTemplate = "true" == this.getUrlParams("template")) } catch (n) { } } }; e.setChartId(), window.deviceType = window.device = e.deviceIdentify() || "", window.domain = window.domain ? window.domain : window.location.port ? "" : window.location.origin, window.staticBasePath = window.staticBasePath ? window.staticBasePath : window.domain + "/v5_editor/static", window.source = "";</script>
+    <script src="./../package.version.b495463b.js"></script>
+    <script>window.fileType = "outline";</script>
+    <script src="./../i18next.89f5fefb.js" type="text/javascript"></script>
+    <script src="./../../../../assets/js/plug_in/ajax.js" type="module"></script>
+    <script type="module" src="./../../../../assets/js/plug_in/inject.js"></script>
+    <script src="./../view.eaacba42.js" type="text/javascript" defer></script>
+
+</body>
+
+</html>

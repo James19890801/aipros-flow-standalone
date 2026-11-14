@@ -1,0 +1,15 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.50391 19.7023C2.97402 14.7834 0.573353 7.95347 0.501655 0.5H27.5V27.4921C18.7446 27.6761 12.0392 24.6271 7.50391 19.7023Z" fill="white" stroke="#212930" stroke-miterlimit="3"/>
+    <path d="M16 13C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11C15.4477 11 15 11.4477 15 12C15 12.5523 15.4477 13 16 13Z" fill="#99999A"/>
+    <circle cx="16" cy="12.5" r="1" fill="white" stroke="#212930"/>
+    <path d="M16.9755 2.5C17.2243 6.53604 20.464 9.77574 24.5 10.0245V23.4969C12.9863 23.3012 3.69879 14.0137 3.50315 2.5H16.9755Z" stroke="#212930" stroke-miterlimit="3"/>
+    <path d="M24.333 4.7738L19.2835 9.8233C18.9331 10.1737 18.3187 10.1824 17.9144 9.77817C17.5102 9.37394 17.5189 8.75949 17.8693 8.40909L22.9188 3.35958C23.2576 3.02079 23.8719 3.00777 24.2784 3.41421C24.6848 3.82066 24.6718 4.435 24.333 4.7738Z" fill="white" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+    <mask id="path-6-inside-1_2249_1698" fill="white">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 4L24 6L22 4Z"/>
+    </mask>
+    <path d="M21.2929 4.70711L23.2929 6.70711L24.7071 5.29289L22.7071 3.29289L21.2929 4.70711Z" fill="#212930" mask="url(#path-6-inside-1_2249_1698)"/>
+    <mask id="path-8-inside-2_2249_1698" fill="white">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 6L24 4L22 6Z"/>
+    </mask>
+    <path d="M22.7071 6.70711L24.7071 4.70711L23.2929 3.29289L21.2929 5.29289L22.7071 6.70711Z" fill="#212930" mask="url(#path-8-inside-2_2249_1698)"/>
+</svg>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmarkdowneditor=self.webpackChunkmarkdowneditor||[]).push([[225],{225:(e,r,c)=>{c.d(r,{createArchitectureServices:()=>t.S});var t=c(77713);c(47492)}}]);

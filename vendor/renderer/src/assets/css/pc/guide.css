@@ -1,0 +1,118 @@
+/* 引导框样式 */
+.guide-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 262px;
+  height: 130px;
+  background-color: #067bef;
+  color: white;
+  border-radius: 4px;
+  padding: 16px;
+  z-index: 1001; /* 确保引导框在遮罩层之上 */
+  transform: translateY(0);
+  transition: transform 0.3s ease, top 0.5s ease, left 0.5s ease;
+}
+
+.guide-box .step-counter{
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.guide-box .guide-text{
+  opacity: 0.8;
+  font-size: 12px;
+}
+.guide-box.left::after {
+  left: -8px;
+  top: 12px;
+  margin-left: -15px;
+  position: absolute;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right-color: #067bef;
+  content: '';
+  width: 0;
+  height: 0;
+}
+.menu_bg{
+  background: #f5f5f5;
+}
+.guide-box.up::before {
+  left: 12px;
+  top: -8px;
+  margin-top: -15px;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-bottom-color: #067bef;
+  content: '';
+  width: 0;
+  height: 0;
+}
+/* 上下浮动动画 */
+@keyframes guide-box-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(3px);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  75% {
+    transform: translateY(3px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.guide-content {
+}
+.guide-box {
+  animation: guide-box-float 1s linear infinite;
+}
+
+/* 透明遮罩层样式 */
+.guide-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1000;
+  display: none;
+}
+/* 按钮样式 */
+.guide-box .next-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  cursor: pointer;
+  color: #4386f5;
+  background: #fff;
+  width: 56px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.guide-box .skip-btn {
+  bottom: 19px;
+  right: 91px;
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+}

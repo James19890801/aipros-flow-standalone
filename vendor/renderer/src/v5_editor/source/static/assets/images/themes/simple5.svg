@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60" style="background:#fff"><g fill="none" fill-rule="evenodd"><rect width="419" height="467" x="2200.5" y=".5" stroke="#DDD" rx="3" transform="translate(-2480 -80)"/><rect width="119" height="59" x=".5" y=".5" stroke="#DDD" rx="3"/><path stroke="#000" stroke-width=".75" d="M57 42c-17.612 0-32-4.712-32-10.47C25 25.77 39.334 21 57 21"/><rect width="30" height="13" x="10" y="25" fill="#067BEF" fill-rule="nonzero" rx="1.47" transform="matrix(1 0 0 -1 0 63)"/><text fill="#FFF" fill-rule="nonzero" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="5" font-weight="300">
+                <tspan x="15" y="33">中心主题</tspan>
+            </text><rect width="30" height="13" x="53" y="35" fill="#EBEDEB" fill-rule="nonzero" rx="1.47" transform="matrix(1 0 0 -1 0 83)"/><rect width="30" height="13" x="53" y="14" fill="#EBEDEB" fill-rule="nonzero" rx="1.47" transform="matrix(1 0 0 -1 0 41)"/><path stroke="#000" stroke-width=".75" d="M96 26h-5.396C89.718 26 89 25.22 89 24.258v-7.516c0-.462.169-.905.47-1.232s.708-.51 1.134-.51H96M89 20.5h-6"/><text fill="#333" fill-rule="nonzero" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="4" font-weight="300">
+                <tspan x="60" y="22">分支主题</tspan>
+            </text><g fill="#333" fill-rule="nonzero" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="3" font-weight="300"><text transform="translate(98 13)">
+                    <tspan x="0" y="3">分支主题</tspan>
+                </text><text transform="translate(98 13)">
+                    <tspan x="0" y="14">分支主题</tspan>
+                </text></g><text fill="#333" fill-rule="nonzero" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="4" font-weight="300">
+                <tspan x="60" y="43">分支主题</tspan>
+            </text></g></svg>

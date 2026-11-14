@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmarkdowneditor=self.webpackChunkmarkdowneditor||[]).push([[6715],{26715:(n,t,o)=>{o.r(t),o.d(t,{default:()=>u});var r={};const u={on:function(n,t){r[n]||(r[n]=[]),r[n].push(t)},emit:function(n,t){r[n]&&r[n].forEach((function(n){return n(t)}))},off:function(n,t){r[n]&&(r[n]=t?r[n].filter((function(n){return n!==t})):[])}}}}]);

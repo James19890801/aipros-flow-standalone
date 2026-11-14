@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="33" height="33" viewBox="0 0 33 33" class="design-iconfont">
+  <g clip-path="url(#ua2fmfy7g__clip0_5233_42241)">
+    <path d="M22.0928 19.9685H21.3428V20.7185V29.1081H11.5895V15.5836V14.8336H10.8395H1.25V3.94141H31.75V19.9685H22.0928Z" stroke="#212930" stroke-width="1.5" stroke-linecap="square"/>
+    <mask id="ua2fmfy7g__bz2lthepca" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="3" width="33" height="27">
+      <path d="M0.5 3.19141H32.5V20.7185H22.0928V29.8581H10.8395V15.5836H0.5V3.19141Z" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#ua2fmfy7g__bz2lthepca)" stroke="#212930" stroke-width=".5" stroke-linecap="square">
+      <path d="M41.7637 8.03516L14.5415 35.2573"/>
+      <path d="M38.9355 5.20703L11.7134 32.4292"/>
+      <path d="M36.1064 2.37891L8.88431 29.601"/>
+      <path d="M26.2773 -7.07031L-0.944792 20.1518"/>
+      <path d="M29.5361 -3.8125L2.314 23.4096"/>
+      <path d="M32.8291 -0.515625L5.60697 26.7065"/>
+      <path d="M22.9746 -10.375L-4.24753 16.8471"/>
+      <path d="M19.6768 -13.6641L-7.54538 13.5581"/>
+      <path d="M16.375 -16.9766L-10.8471 10.2456"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="ua2fmfy7g__clip0_5233_42241">
+      <path fill="#fff" transform="translate(.5 .527344)" d="M0 0H32V32H0z"/>
+    </clipPath>
+  </defs>
+</svg>

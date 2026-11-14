@@ -1,0 +1,94 @@
+/* //配置项必须引入
+//浅色模式
+@color_base: #2b3033;
+
+//左右corner底色 
+@bgcolor2: #f5f6f8;
+
+@line_deep: #e8e8e8;
+
+@color_btn_base: #fff;
+@bgcolor_btn_base: #2b3033; */
+
+/****** 新手指引 start ******/
+.dlg_guide{
+	width: 80%;
+	min-width: 570px;
+	max-width: 800px;
+	font-size: 13px;
+	color: #2b3033;
+	padding: 10px 12px;
+	margin-left: 0!important;
+	margin-top: 0!important;
+	transform: translate(-50%, -50%)!important;
+	background: #fff;
+	z-index: 20;
+}
+.dlg_guide .po-dialog-close {
+		right: 24px!important;
+	} 
+.dlg_guide .dlg_title{
+	display: flex;
+	align-items: center;
+	height: 28px;
+	color: var(--212930, #212930);
+	font-family: "PingFang SC";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	margin-bottom: 20px;
+	line-height: 28px;
+	
+}
+.dlg_guide .dlg_title .content-title {
+		height: 16px;
+        padding: 2px 8px;
+		border-radius: 30px;
+        background: rgba(6, 123, 239, 0.15);  
+		color: var(--color-text-public, #056FD7);
+		font-family: "PingFang SC";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: 4px;
+		line-height: 16px;
+	}
+.dlg_guide .title span:hover,.dlg_guide .title span.checked{
+	background: #2b3033;
+	color: #fff;
+}
+.dlg_guide .group .img{
+	margin-bottom: 16px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #e8e8e8;
+}
+.dlg_guide .group .img > img{
+	display: block;
+}
+.dlg_guide .group .item{
+	padding-left: 21px;
+	position: relative;
+	color: #212930;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 200% */
+	text-transform: capitalize;
+}
+.dlg_guide .group .item:before{
+	content: "";
+	display: block;
+	width: 6px;
+	height: 6px;
+	background: #2b3033;
+	border-radius: 3px;
+	position: absolute;
+	left: 8px;
+	top: 11px;
+}
+/****** 新手指引 end ******/

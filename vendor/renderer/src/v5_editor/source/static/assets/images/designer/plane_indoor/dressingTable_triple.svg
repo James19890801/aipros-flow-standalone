@@ -1,0 +1,20 @@
+<svg width="32" height="78" viewBox="0 0 32 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 0.5H31.5V77.5H1.5V0.5Z" fill="#E0E0E0" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M3.5 2.5H31.5V75.5H3.5V2.5Z" fill="white" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 76V2L5 3.42762V74.3056L3 76Z" fill="#020202" fill-opacity="0.15"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 76H32V74.3056H5.13988L3 76ZM3 2H32V3.42762H5.13988L3 2Z" fill="#020202" fill-opacity="0.4"/>
+<path d="M26.5 77.5V76.4735H31.5V77.5H26.5ZM26.5 1.52669V0.5H31.5V1.52669H26.5Z" fill="#ADADAD" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M26.5 51.4876V51.5H25.9366H3.5V51.4876H26.5ZM26.5 25.5V25.5122H25.9366H3.5V25.5H26.5Z" fill="#ADADAD" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 51L5.16713 50.1871H26.475L27 50.9468H25.9635L3 51ZM3 26.0133L5.16713 26.773H26.475L27 26L3 26.0133Z" fill="#020202" fill-opacity="0.4"/>
+<path d="M2.02736 48.4296L2.5 49.0985V53.8378L2.05588 54.5H0.5V48.4296H2.02736ZM2.02736 22.5L2.5 23.1689V27.9083L2.0559 28.5704H0.5V22.5H2.02736Z" fill="#383838" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 52V50.9876H26V52H25ZM25 26.0122V25H26V26.0122H25Z" fill="#1C1C1C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.05085 55H3V47.9296L4 48.9397V53.9899L3.05085 55ZM3.05085 29.0704H3V22L4 23.0101V28.0605L3.05085 29.0704Z" fill="#1C1C1C"/>
+<mask id="path-11-inside-1_584_1007" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 55V48V55Z"/>
+</mask>
+<path d="M2 55V56H4V55H2ZM4 48V47H2V48H4ZM4 55V48H2V55H4Z" fill="#212930" mask="url(#path-11-inside-1_584_1007)"/>
+<mask id="path-13-inside-2_584_1007" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 29V22V29Z"/>
+</mask>
+<path d="M2 29V30H4V29H2ZM4 22V21H2V22H4ZM4 29V22H2V29H4Z" fill="#212930" mask="url(#path-13-inside-2_584_1007)"/>
+</svg>

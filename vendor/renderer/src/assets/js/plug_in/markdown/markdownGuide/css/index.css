@@ -1,0 +1,19 @@
+.bottom-handler{
+  position:absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  line-height: 16px;
+  font-size: 16px;
+  text-align: center;
+  color: #6C7D8F;
+  cursor: pointer;
+  
+}
+.bottom-handler .extend-menu {
+    left: 0;
+    top: 0;
+    transform: translate(-100%, -100%);
+  }

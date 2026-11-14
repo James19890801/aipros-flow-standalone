@@ -1,0 +1,14 @@
+<svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 28V1H14V28H1Z" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 14H14.7613L15 15H0.24699L0 14Z" fill="#383838" fill-opacity="0.3"/>
+<path d="M14.7613 15L15 16H0.24699L0 15" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M14 14H0" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M0.166712 14.3296C0.258784 14.3296 0.333423 14.2558 0.333423 14.1648C0.333423 14.0738 0.258784 14 0.166712 14C0.0746394 14 0 14.0738 0 14.1648C0 14.2558 0.0746394 14.3296 0.166712 14.3296Z" fill="#212930" stroke="#212930" stroke-width="0.5" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M8 28.47V28" stroke="#212930" stroke-width="0.5" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M8 1.47007V1" stroke="#212930" stroke-width="0.5" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M8 22V7" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M12 28V1" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M3 28V1" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M3 21H13" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+<path d="M3 7H13" stroke="#212930" stroke-miterlimit="3" stroke-linecap="square"/>
+</svg>

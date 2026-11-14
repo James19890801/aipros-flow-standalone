@@ -1,0 +1,23 @@
+<svg width="60" height="18" viewBox="0 0 60 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_21634_43547)">
+<path d="M1.34961 9H16.6496" stroke="#212930" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="0.01 1.8"/>
+<line x1="3.2918" y1="8.99531" x2="5.06907" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="9.0418" y1="8.99531" x2="10.8191" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="14.8064" y1="8.99531" x2="16.5837" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<path d="M19.0337 9H34.3337" stroke="#212930" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="0.01 1.8"/>
+<line x1="20.9759" y1="8.99531" x2="22.7532" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="26.7259" y1="8.99531" x2="28.5032" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="32.4905" y1="8.99531" x2="34.2678" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<path d="M36.7178 9H52.0178" stroke="#212930" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="0.01 1.8"/>
+<line x1="38.66" y1="8.99531" x2="40.4373" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="44.46" y1="8.94531" x2="46.1373" y2="8.94531" stroke="#212930" stroke-linecap="round"/>
+<line x1="50.1747" y1="8.99531" x2="51.9519" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+<path d="M54.4019 9H69.7019" stroke="#212930" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="0.01 1.8"/>
+<line x1="56.3441" y1="8.99531" x2="58.1214" y2="8.99531" stroke="#212930" stroke-width="0.9" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_21634_43547">
+<rect width="60" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>

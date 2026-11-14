@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+}
+#insert-editor-button {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+  z-index: 9;
+}
+#insert-editor-button>div {
+  min-width: 70px;
+  margin: 0 10px;
+}
+/*.bottom_temp_wrap {
+  bottom: 35px;
+}*/
+.bottom_temp_wrap_mind{
+	bottom: 85px !important;
+}
+#page-imgcreating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 9999;
+}
+#page-imgcreating img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+#page-imgcreating p {
+  margin: 0;
+  padding: 0;
+  color: #36425A;
+}
+#po-file-btn,
+#top-btn-download,
+#po-btn-import_,
+#po-rename-btn-left {
+  display: none !important;
+}
+#save-wps-topbtn {
+  visibility: hidden;
+}
+.header-center span[tit=export] {
+  display: none;
+}
+#right-help-con .op-menu-list li[tit='mind_book'] {
+  display: none;
+}
+#right-help-con .op-menu-list li[tit='feedback'] {
+  display: none;
+}
+#right-help-con .op-menu-list li[tit='upLog'] {
+  display: none;
+}
+.po-footer {
+  padding-bottom: 50px !important;
+}
+#po-dock-shape{
+	padding-bottom: 65px !important;;
+}
+#page_tab_menu_list{
+	margin-bottom: 50px;
+}
+/*body>.po-footer {
+   padding-bottom: 50px;
+}*/
+/*.po-footer .po-tool-devider:nth-child(2){
+	display: none;
+}*/
+#link-to-outline + .po-tool-devider {
+	display: none;
+	}
+#link-to-outline,
+#link-to-outline_ {
+  display: none;
+}
+.po-footer .po-footer-left .selected-texts-num {
+  left: 68px;
+}
+header .header-center span[tit="view"] {
+  display: none;
+}
+.mind-corner {
+  height: calc(100% - 155px) !important;
+}

@@ -1,0 +1,62 @@
+/* @font-face {
+    font-family: diagramingicons;
+    src: url(./../source/static/assets/iconfont/font_4166732/iconfont.woff2?t=1669607542317) format("woff2"),
+        url(./../source/static/assets/iconfont/font_4166732/iconfont.woff2?t=1669607542317) format("woff"),
+        url(./../source/static/assets/iconfont/font_4166732/iconfont.woff2?t=1669607542317) format("truetype")
+} */
+
+
+/* @font-face {
+    font-family: mindicons;
+    src: url(./font_45680_4qtp9379riy.woff2?t=1649756651181) format("woff2"),
+        url(./font_45680_4qtp9379riy.woff?t=1649756651181) format("woff"),
+        url(./font_45680_4qtp9379riy.ttf?t=1649756651181) format("truetype")
+} */
+
+/* .icons_web {
+    font-family: 'diagramingicons' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: #212930;
+}
+
+
+.po-diagraming-icons {
+    font-family: "diagramingicons" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+/* @font-face {
+    font-family: 'diagramingicons';
+    src: url('./font_2726378_aizla32kd6s.woff2?t=1675234354792') format('woff2'),
+        url('./font_2726378_aizla32kd6s.woff?t=1675234354792') format('woff'),
+        url('./font_2726378_aizla32kd6s.ttf?t=1675234354792') format('truetype');
+} */
+
+@font-face {
+    font-family: 'iconfont';
+    /* Project id 142592 */
+    src: url('./iconfont.woff2') format('woff2'),
+        url('./iconfont.woff') format('woff'),
+        url('./iconfont.ttf') format('truetype');
+}
+
+.po-iconfont-icons {
+    font-family: "iconfont" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icons_web {
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: #212930;
+}

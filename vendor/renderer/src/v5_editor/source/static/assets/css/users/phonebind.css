@@ -1,0 +1,166 @@
+.phone_bind_poupe{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.phone_bind_content {
+    width: 400px;
+    height: 258px;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 24px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+   // border: 1px solid rgba(151, 151, 151, 1);
+}
+.phone_bind_close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.pb_title {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    color: #212930;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "PingFang SC";
+    text-align: left;
+    margin-top: 20px;
+}
+
+.pb_tip_title {
+    width: 224px;
+    height: 20px;
+    color: #6C7D8F;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "PingFang SC";
+    text-align: left;
+    margin-top: 8px;
+}
+
+.pb_input_content {
+    position: relative;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.bind_input {
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #e9edf2;
+    box-sizing: border-box;
+    color: #212930;
+    display: inline-block;
+    font-size: inherit;
+    outline: none;
+    padding: 0 12px;
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+
+.pb_input_code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tencent_btn_verify {
+    width: 152px;
+    text-align: center;
+    padding: 0 18px;
+    background: none;
+    border: 1px solid #067bef;
+    color: #067bef;
+    font-size: 13px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 400;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.error-tip-amount {
+    font-size: 12px;
+    color: #eb5555;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
+.error-tip-code {
+    font-size: 12px;
+    color: #eb5555;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
+.inputSelect {
+    border: solid 1px #4386f5
+}
+
+.inputSelect_error {
+    border: solid 1px #eb5555
+}
+
+.pb_buttonContent {
+    margin-top: 24px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pb_cancel_butt {
+    border: 1px solid #e9edf2;
+    width: 68px;
+    line-height: 30px;
+    height: 30px;
+    color: #212930;
+    font-weight: 400;
+    background: #fff;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pb_confirm_butt {
+    margin-left: 16px;
+    background: #067bef;
+    color: #fff;
+    width: 68px;
+    line-height: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}

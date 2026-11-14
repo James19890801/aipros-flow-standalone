@@ -1,0 +1,112 @@
+html,
+body {
+  height: 100%;
+}
+#insert-editor-button {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+  z-index: 9;
+}
+#insert-editor-button>div {
+  min-width: 70px;
+  margin: 0 10px;
+}
+#insert-editor-button>.po-button.primary{
+    background-color: #8350f2;
+    border-color: #8350f2;
+}
+.bottom_temp_wrap {
+  display: none !important;
+}
+#page-imgcreating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 9999;
+}
+#page-imgcreating img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+#page-imgcreating p {
+  margin: 0;
+  padding: 0;
+  color: #36425A;
+}
+#po-file-btn,
+#top-btn-download,
+#po-btn-import_ {
+  display: none !important;
+}
+#extra-box li[tit=upLog], #extra-box li[tit=mind_book]{
+    display: none;
+}
+#save-wps-topbtn {
+  visibility: hidden;
+}
+.header-center span[tit=export] {
+  display: none!important;
+}
+.header-center>span.active{
+    color: #8350f2 !important;
+}
+.header-center>span.active::after{
+    background-color: #8350f2 !important;
+}
+/*部分导出*/
+#designer-contextmenu li[ac=download_part],
+.po-menu-hotkey li[op=download-part]{
+  display: none!important;
+}
+#right-help-con .op-menu-list li[tit='feedback'] {
+  display: none;
+}
+.po-footer {
+  padding-bottom: 50px !important;
+}
+.mind-canvas-wrap{
+    bottom: 86px !important;
+}
+body>.po-navigation {
+  bottom: 50px;
+}
+#link-to-outline,
+#link-to-outline + .po-tool-devider,
+#link-to-outline_,
+#link-v-to-outline_,
+#link-v-to-outline_ + .po-tool-devider {
+  display: none !important;
+}
+#header-op-container [tit=view] [tit=mind_mode] {
+  display: none;
+}
+#mind_topics_details .po-tool-devider:first-child {
+  display: none;
+}
+.po-footer .po-footer-left .selected-texts-num {
+  left: 68px;
+}
+.mind-corner {
+  height: calc(100% - 202px) !important;
+}
+.mind-container .wrap-border-b{
+    bottom: 82px !important;
+}
+.mind-container .corner-b-r, .mind-container .corner-b-l{
+    bottom: 84px !important;
+}
