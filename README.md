@@ -40,3 +40,7 @@ node scripts/local-agent-bridge.cjs
 - 附件支持 PNG/JPEG/WebP、文本型 PDF 和 DOCX；扫描版 PDF 请先 OCR 或转成图片。
 - `bin/aipros-flow.js` 是绘图 CLI；项目 Skill 位于 `skills/aipros-flowchart/`，可按需安装到本地智能体。
 - 没有预置对话、业务文档、账号数据、私有仓库链接或云端凭据。`npm ci` 需要联网下载公开依赖。
+
+## 第三方组件
+
+编辑器资源 `vendor/renderer` 含有 ProcessOn 相关引用，其来源和再分发许可尚未核实。根目录 MIT 许可仅适用于项目作者有权授权的原创代码；第三方组件不因此获得 MIT 授权。详见 [第三方说明](THIRD_PARTY_NOTICE.md)。
